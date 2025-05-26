@@ -538,7 +538,7 @@ export interface ApiUpdateUpdate extends Struct.CollectionTypeSchema {
   collectionName: 'updates';
   info: {
     description: '';
-    displayName: 'updates';
+    displayName: 'Updates';
     pluralName: 'updates';
     singularName: 'update';
   };
