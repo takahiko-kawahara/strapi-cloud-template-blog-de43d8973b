@@ -39,6 +39,14 @@
           "localized": true
         }
       }
+    },
+    "summary": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
