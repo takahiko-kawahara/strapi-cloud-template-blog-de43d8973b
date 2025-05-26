@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "updates",
+  "info": {
+    "singularName": "update",
+    "pluralName": "updates",
+    "displayName": "updates",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    },
+    "title": {
+      "type": "text"
+    },
+    "publishAt": {
+      "type": "datetime"
+    }
+  }
+}
