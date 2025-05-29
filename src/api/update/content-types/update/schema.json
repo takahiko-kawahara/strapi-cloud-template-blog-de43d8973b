@@ -32,14 +32,6 @@
         }
       }
     },
-    "publishAt": {
-      "type": "datetime",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "summary": {
       "type": "blocks",
       "pluginOptions": {

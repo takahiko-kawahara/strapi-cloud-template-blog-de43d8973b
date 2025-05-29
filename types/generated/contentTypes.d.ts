@@ -397,12 +397,6 @@ export interface ApiUpdateUpdate extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::update.update'>;
-    publishAt: Schema.Attribute.DateTime &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     publishedAt: Schema.Attribute.DateTime;
     summary: Schema.Attribute.Blocks &
       Schema.Attribute.SetPluginOptions<{
